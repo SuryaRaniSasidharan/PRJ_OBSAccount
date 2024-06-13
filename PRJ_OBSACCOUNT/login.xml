@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+		<parameter name="urlTest1" value="https://qalegend.com/billing/public/login"></parameter>
+	 <parameter name="browserTest1" value="chrome"></parameter>
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="projectTestCases.TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
