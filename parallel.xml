@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" thread-count="3" parallel="tests">
+   <test name="Test1">
+    <classes>
+      <class name="parallelTC.TestNGLogin"/>
+
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+    <classes>
+      
+      <class name="parallelTC.TestNgUnit"/>
+     
+    </classes>
+  </test> <!-- Test -->
+    <test name="Test3">
+    <classes>
+      
+      <class name="parallelTC.TestNgCatagory"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

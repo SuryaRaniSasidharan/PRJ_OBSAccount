@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<listeners>
+		<listener  class-name="testNGUtility.RetryListner">
+			
+		</listener>
+		
+		</listeners>
+  <test name="Test">
+	  <groups>
+		  <run>
+			  <include name="failed">
+				  
+			  </include>
+		  </run>
+	  </groups>
+    <classes>
+     
+      <class name="SequentialTC.TestNGLogin"/>
+ 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

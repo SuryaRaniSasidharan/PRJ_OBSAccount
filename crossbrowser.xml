@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	
+	 <test name="Test1">
+		 <parameter name="url" value="https://qalegend.com/billing/public/login"></parameter>
+	 <parameter name="browser" value="chrome"></parameter>
+ 
+    <classes>
+     
+      <class name="crossBrowserTC.TestNGLogin"/>
+       </classes>
+       </test> <!-- Test -->
+    <test name="Test2">
+		  <parameter name="urlTest3" value="https://qalegend.com/billing/public/login"></parameter>
+	 <parameter name="browserTest3" value="edge"></parameter>
+		 <classes>
+      <class name="crossBrowserTC.TestNgCatagory"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
